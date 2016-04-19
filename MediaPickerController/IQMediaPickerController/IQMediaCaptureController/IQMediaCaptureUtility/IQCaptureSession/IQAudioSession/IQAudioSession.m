@@ -26,6 +26,7 @@
 #import "IQFileManager.h"
 #import <AVFoundation/AVFoundation.h>
 #import "IQMediaPickerControllerConstants.h"
+#import <UIKit/UIKit.h>
 
 @interface IQAudioSession ()<AVAudioRecorderDelegate>
 

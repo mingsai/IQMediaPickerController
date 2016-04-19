@@ -163,6 +163,8 @@
     
     self.navigationController.navigationBarHidden = YES;
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+    
+    
 }
 
 -(void)viewWillDisappear:(BOOL)animated

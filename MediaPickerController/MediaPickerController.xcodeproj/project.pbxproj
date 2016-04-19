@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19B946241CC540F00001BC7F /* IQMediaPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B946231CC540F00001BC7F /* IQMediaPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B946281CC540F00001BC7F /* IQMediaPickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B946211CC540F00001BC7F /* IQMediaPickerController.framework */; };
+		19B946291CC540F00001BC7F /* IQMediaPickerController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19B946211CC540F00001BC7F /* IQMediaPickerController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		19B9462F1CC541770001BC7F /* IQAlbumAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF13819A8BD8A0071D368 /* IQAlbumAssetsViewController.m */; };
+		19B946311CC541770001BC7F /* IQAssetsAlbumViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF13B19A8BD8A0071D368 /* IQAssetsAlbumViewCell.m */; };
+		19B946331CC541770001BC7F /* IQAssetsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF13D19A8BD8A0071D368 /* IQAssetsCell.m */; };
+		19B946351CC541770001BC7F /* IQAssetsPickerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF14019A8BD8A0071D368 /* IQAssetsPickerShadowView.m */; };
+		19B946371CC541770001BC7F /* IQCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF14219A8BD8A0071D368 /* IQCheckmarkView.m */; };
+		19B946391CC541770001BC7F /* IQAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF14419A8BD8A0071D368 /* IQAssetsPickerController.m */; };
+		19B9463B1CC541770001BC7F /* IQAudioPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF14719A8BD8A0071D368 /* IQAudioPickerController.m */; };
+		19B9463C1CC541770001BC7F /* IQAudioPickerController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0ACF14819A8BD8A0071D368 /* IQAudioPickerController.xcassets */; };
+		19B9463E1CC541770001BC7F /* IQAudioPickerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF14B19A8BD8A0071D368 /* IQAudioPickerUtility.m */; };
+		19B946401CC541770001BC7F /* IQAudioPickerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF14F19A8BD8A0071D368 /* IQAudioPickerShadowView.m */; };
+		19B946421CC541770001BC7F /* IQSongsAlbumViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF15219A8BD8A0071D368 /* IQSongsAlbumViewCell.m */; };
+		19B946441CC541770001BC7F /* IQSongsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF15419A8BD8A0071D368 /* IQSongsCell.m */; };
+		19B946461CC541770001BC7F /* IQSongsListTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF15719A8BD8A0071D368 /* IQSongsListTableHeaderView.m */; };
+		19B946481CC541770001BC7F /* IQSongsAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF15919A8BD8A0071D368 /* IQSongsAlbumListViewController.m */; };
+		19B9464A1CC541770001BC7F /* IQSongsArtistListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF15B19A8BD8A0071D368 /* IQSongsArtistListViewController.m */; };
+		19B9464C1CC541770001BC7F /* IQSongsCompilationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF15D19A8BD8A0071D368 /* IQSongsCompilationsViewController.m */; };
+		19B9464E1CC541770001BC7F /* IQSongsComposersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF15F19A8BD8A0071D368 /* IQSongsComposersViewController.m */; };
+		19B946501CC541770001BC7F /* IQSongsGenreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF16119A8BD8A0071D368 /* IQSongsGenreViewController.m */; };
+		19B946521CC541770001BC7F /* IQSongsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF16319A8BD8A0071D368 /* IQSongsListViewController.m */; };
+		19B946541CC541770001BC7F /* IQSongsPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF16519A8BD8A0071D368 /* IQSongsPlaylistViewController.m */; };
+		19B946561CC541770001BC7F /* IQMediaCaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF16819A8BD8A0071D368 /* IQMediaCaptureController.m */; };
+		19B946571CC541770001BC7F /* IQMediaCaptureController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A8487B19A91F14005E5BCE /* IQMediaCaptureController.xcassets */; };
+		19B946591CC541770001BC7F /* IQAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF16E19A8BD8A0071D368 /* IQAudioSession.m */; };
+		19B9465B1CC541770001BC7F /* IQCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF17019A8BD8A0071D368 /* IQCaptureSession.m */; };
+		19B9465D1CC541770001BC7F /* IQFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF17319A8BD8A0071D368 /* IQFileManager.m */; };
+		19B9465F1CC541770001BC7F /* IQBottomContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF17719A8BD8A0071D368 /* IQBottomContainerView.m */; };
+		19B946611CC541770001BC7F /* IQFeatureOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF17B19A8BD8A0071D368 /* IQFeatureOverlay.m */; };
+		19B946631CC541770001BC7F /* IQMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF17D19A8BD8A0071D368 /* IQMediaView.m */; };
+		19B946651CC541770001BC7F /* IQPartitionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF18019A8BD8A0071D368 /* IQPartitionBar.m */; };
+		19B946671CC541770001BC7F /* IQPartitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF18219A8BD8A0071D368 /* IQPartitionView.m */; };
+		19B946691CC541770001BC7F /* IQ_SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D5741C1AEEC1F8002B49B7 /* IQ_SCSiriWaveformView.m */; };
+		19B9466B1CC541770001BC7F /* IQMediaPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF18C19A8BD8A0071D368 /* IQMediaPickerController.m */; };
+		19B9466D1CC541770001BC7F /* IQMediaPickerControllerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF18E19A8BD8A0071D368 /* IQMediaPickerControllerConstants.m */; };
 		C035C21F19A8B5BE0072C2C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C035C21E19A8B5BE0072C2C0 /* Foundation.framework */; };
 		C035C22119A8B5BE0072C2C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C035C22019A8B5BE0072C2C0 /* CoreGraphics.framework */; };
 		C035C22319A8B5BE0072C2C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C035C22219A8B5BE0072C2C0 /* UIKit.framework */; };
@@ -60,6 +96,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		19B946261CC540F00001BC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C035C21319A8B5BE0072C2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B946201CC540F00001BC7F;
+			remoteInfo = IQMediaPickerController;
+		};
 		C035C24419A8B5BE0072C2C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C035C21319A8B5BE0072C2C0 /* Project object */;
@@ -69,7 +112,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		19B9462D1CC540F00001BC7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19B946291CC540F00001BC7F /* IQMediaPickerController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		19B946211CC540F00001BC7F /* IQMediaPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQMediaPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B946231CC540F00001BC7F /* IQMediaPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQMediaPickerController.h; sourceTree = "<group>"; };
+		19B946251CC540F00001BC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C035C21B19A8B5BE0072C2C0 /* MediaPickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C035C21E19A8B5BE0072C2C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C035C22019A8B5BE0072C2C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -162,6 +222,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		19B9461D1CC540F00001BC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C035C21819A8B5BE0072C2C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +236,7 @@
 				C035C22119A8B5BE0072C2C0 /* CoreGraphics.framework in Frameworks */,
 				C035C22319A8B5BE0072C2C0 /* UIKit.framework in Frameworks */,
 				C035C21F19A8B5BE0072C2C0 /* Foundation.framework in Frameworks */,
+				19B946281CC540F00001BC7F /* IQMediaPickerController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +253,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B946221CC540F00001BC7F /* IQMediaPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				19B946231CC540F00001BC7F /* IQMediaPickerController.h */,
+				19B946251CC540F00001BC7F /* Info.plist */,
+			);
+			path = IQMediaPickerController;
+			sourceTree = "<group>";
+		};
 		C035C21219A8B5BE0072C2C0 = {
 			isa = PBXGroup;
 			children = (
 				C0ACF13519A8BD8A0071D368 /* IQMediaPickerController */,
 				C035C22419A8B5BE0072C2C0 /* MediaPickerController */,
 				C035C24619A8B5BE0072C2C0 /* MediaPickerControllerTests */,
+				19B946221CC540F00001BC7F /* IQMediaPickerController */,
 				C035C21D19A8B5BE0072C2C0 /* Frameworks */,
 				C035C21C19A8B5BE0072C2C0 /* Products */,
 			);
@@ -201,6 +279,7 @@
 			children = (
 				C035C21B19A8B5BE0072C2C0 /* MediaPickerController.app */,
 				C035C23F19A8B5BE0072C2C0 /* MediaPickerControllerTests.xctest */,
+				19B946211CC540F00001BC7F /* IQMediaPickerController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -506,7 +585,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		19B9461E1CC540F00001BC7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B946241CC540F00001BC7F /* IQMediaPickerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		19B946201CC540F00001BC7F /* IQMediaPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B9462C1CC540F00001BC7F /* Build configuration list for PBXNativeTarget "IQMediaPickerController" */;
+			buildPhases = (
+				19B9461C1CC540F00001BC7F /* Sources */,
+				19B9461D1CC540F00001BC7F /* Frameworks */,
+				19B9461E1CC540F00001BC7F /* Headers */,
+				19B9461F1CC540F00001BC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQMediaPickerController;
+			productName = IQMediaPickerController;
+			productReference = 19B946211CC540F00001BC7F /* IQMediaPickerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C035C21A19A8B5BE0072C2C0 /* MediaPickerController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C035C25019A8B5BE0072C2C0 /* Build configuration list for PBXNativeTarget "MediaPickerController" */;
@@ -514,10 +622,12 @@
 				C035C21719A8B5BE0072C2C0 /* Sources */,
 				C035C21819A8B5BE0072C2C0 /* Frameworks */,
 				C035C21919A8B5BE0072C2C0 /* Resources */,
+				19B9462D1CC540F00001BC7F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				19B946271CC540F00001BC7F /* PBXTargetDependency */,
 			);
 			name = MediaPickerController;
 			productName = MediaPickerController;
@@ -548,9 +658,12 @@
 		C035C21319A8B5BE0072C2C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Iftekhar;
 				TargetAttributes = {
+					19B946201CC540F00001BC7F = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					C035C23E19A8B5BE0072C2C0 = {
 						TestTargetID = C035C21A19A8B5BE0072C2C0;
 					};
@@ -571,11 +684,21 @@
 			targets = (
 				C035C21A19A8B5BE0072C2C0 /* MediaPickerController */,
 				C035C23E19A8B5BE0072C2C0 /* MediaPickerControllerTests */,
+				19B946201CC540F00001BC7F /* IQMediaPickerController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		19B9461F1CC540F00001BC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B946571CC541770001BC7F /* IQMediaCaptureController.xcassets in Resources */,
+				19B9463C1CC541770001BC7F /* IQAudioPickerController.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C035C21919A8B5BE0072C2C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -599,6 +722,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19B9461C1CC540F00001BC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B9462F1CC541770001BC7F /* IQAlbumAssetsViewController.m in Sources */,
+				19B946311CC541770001BC7F /* IQAssetsAlbumViewCell.m in Sources */,
+				19B946331CC541770001BC7F /* IQAssetsCell.m in Sources */,
+				19B946351CC541770001BC7F /* IQAssetsPickerShadowView.m in Sources */,
+				19B946371CC541770001BC7F /* IQCheckmarkView.m in Sources */,
+				19B946391CC541770001BC7F /* IQAssetsPickerController.m in Sources */,
+				19B9463B1CC541770001BC7F /* IQAudioPickerController.m in Sources */,
+				19B9463E1CC541770001BC7F /* IQAudioPickerUtility.m in Sources */,
+				19B946401CC541770001BC7F /* IQAudioPickerShadowView.m in Sources */,
+				19B946421CC541770001BC7F /* IQSongsAlbumViewCell.m in Sources */,
+				19B946441CC541770001BC7F /* IQSongsCell.m in Sources */,
+				19B946461CC541770001BC7F /* IQSongsListTableHeaderView.m in Sources */,
+				19B946481CC541770001BC7F /* IQSongsAlbumListViewController.m in Sources */,
+				19B9464A1CC541770001BC7F /* IQSongsArtistListViewController.m in Sources */,
+				19B9464C1CC541770001BC7F /* IQSongsCompilationsViewController.m in Sources */,
+				19B9464E1CC541770001BC7F /* IQSongsComposersViewController.m in Sources */,
+				19B946501CC541770001BC7F /* IQSongsGenreViewController.m in Sources */,
+				19B946521CC541770001BC7F /* IQSongsListViewController.m in Sources */,
+				19B946541CC541770001BC7F /* IQSongsPlaylistViewController.m in Sources */,
+				19B946561CC541770001BC7F /* IQMediaCaptureController.m in Sources */,
+				19B946591CC541770001BC7F /* IQAudioSession.m in Sources */,
+				19B9465B1CC541770001BC7F /* IQCaptureSession.m in Sources */,
+				19B9465D1CC541770001BC7F /* IQFileManager.m in Sources */,
+				19B9465F1CC541770001BC7F /* IQBottomContainerView.m in Sources */,
+				19B946611CC541770001BC7F /* IQFeatureOverlay.m in Sources */,
+				19B946631CC541770001BC7F /* IQMediaView.m in Sources */,
+				19B946651CC541770001BC7F /* IQPartitionBar.m in Sources */,
+				19B946671CC541770001BC7F /* IQPartitionView.m in Sources */,
+				19B946691CC541770001BC7F /* IQ_SCSiriWaveformView.m in Sources */,
+				19B9466B1CC541770001BC7F /* IQMediaPickerController.m in Sources */,
+				19B9466D1CC541770001BC7F /* IQMediaPickerControllerConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C035C21719A8B5BE0072C2C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -654,6 +815,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		19B946271CC540F00001BC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B946201CC540F00001BC7F /* IQMediaPickerController */;
+			targetProxy = 19B946261CC540F00001BC7F /* PBXContainerItemProxy */;
+		};
 		C035C24519A8B5BE0072C2C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C035C21A19A8B5BE0072C2C0 /* MediaPickerController */;
@@ -689,6 +855,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		19B9462A1CC540F00001BC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				INFOPLIST_FILE = IQMediaPickerController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = co.mingtech.IQMediaPickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19B9462B1CC540F00001BC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				INFOPLIST_FILE = IQMediaPickerController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = co.mingtech.IQMediaPickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C035C24E19A8B5BE0072C2C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -722,7 +943,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -755,7 +976,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -770,6 +991,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MediaPickerController/MediaPickerController-Prefix.pch";
 				INFOPLIST_FILE = "MediaPickerController/MediaPickerController-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iftekhar.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -784,6 +1007,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MediaPickerController/MediaPickerController-Prefix.pch";
 				INFOPLIST_FILE = "MediaPickerController/MediaPickerController-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iftekhar.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -806,6 +1031,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MediaPickerControllerTests/MediaPickerControllerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iftekhar.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -824,6 +1050,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MediaPickerController/MediaPickerController-Prefix.pch";
 				INFOPLIST_FILE = "MediaPickerControllerTests/MediaPickerControllerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Iftekhar.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -833,6 +1060,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19B9462C1CC540F00001BC7F /* Build configuration list for PBXNativeTarget "IQMediaPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B9462A1CC540F00001BC7F /* Debug */,
+				19B9462B1CC540F00001BC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C035C21619A8B5BE0072C2C0 /* Build configuration list for PBXProject "MediaPickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
